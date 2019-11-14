@@ -1,0 +1,42 @@
+.imageContainer{
+    position: relative;
+    overflow: hidden;
+}
+
+.imageContainer:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 1s linear;
+}
+.imageContainer:hover img{
+    opacity: 0.1;
+    transition: all 1s linear;
+}
+
+.priceBtn{
+    position: absolute;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+    top: 0;
+    left: 0;
+    transition: all 1s linear;
+}
+
+.roomLink{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.imageContainer:hover .roomLink{
+    opacity: 1;
+    transition: all 1s linear;
+}
+
+
+.imageContainer:hover .priceBtn{
+    opacity: 0;
+    transition: all 1s linear;
+}

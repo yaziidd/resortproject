@@ -1,0 +1,23 @@
+.homeCover{
+    display: flex;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/homecover.jpg') center/cover no-repeat;
+}
+
+.roomCover{
+    display: flex;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/roomCover.jpg') center/cover no-repeat;
+}
+
+.errorCover{
+    display: flex;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/errorcover.jpg') center/cover no-repeat;
+}
